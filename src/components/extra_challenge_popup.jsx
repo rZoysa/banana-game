@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
 const MathChallengePopup = ({ onClose, onSuccess }) => {
-  const [timeLeft, setTimeLeft] = useState(100);
+  const [timeLeft, setTimeLeft] = useState(30);
   const [solution, setSolution] = useState(null);
   const [displayQuestion, setDisplayQuestion] = useState("");
   const [options, setOptions] = useState([]);
